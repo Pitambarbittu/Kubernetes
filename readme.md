@@ -79,7 +79,7 @@ spec:
 6. minikube service simple-app-service
 
 -------------------------------------------------------------------------------------------------
-## With INGRESS
+## -------------With INGRESS---------------
 
 ingress.yaml
 ------------
@@ -158,7 +158,8 @@ spec:
     port: 80
     targetPort: 8000
     nodePort: 31258
-    ```
+
+```
 --------------------------------------------------------
 command
 --------
@@ -166,7 +167,8 @@ command
 1. cd drivers
 2. cd etc
 3. notepad.exe hosts
--------
+--------------------
+
 ```
 # Copyright (c) 1993-2009 Microsoft Corp.
 #
@@ -196,6 +198,7 @@ command
 127.0.0.1 kubernetes.docker.internal
 127.0.0.1 pitambar.bhadra.co.in
 # End of section
+
 ```
 ---------------------------------------------------------------------------------------------
 4. kubectl apply -f deployment.yaml
