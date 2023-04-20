@@ -1,7 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: simple-app-deployment
+  name: bhadra-deployment
+  namespace: ingress-nginx
 spec:
   replicas: 2
   selector:
@@ -13,12 +14,7 @@ spec:
         app: simple-app
     spec:
       containers:
-      - name: simple-app
+      - name: djangodeployment
         image: pitambarbhadra/bittu
-        resources:
-          limits:
-            memory: "256Mi"
-            cpu: "500m"
-
         ports:
         - containerPort: 8000

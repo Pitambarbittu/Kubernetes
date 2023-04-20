@@ -5,6 +5,7 @@ kind: Service
 metadata:
 
   name: simple-app-service
+  namespace: ingress-nginx
 
 spec:
 
@@ -15,4 +16,4 @@ spec:
   - protocol: TCP
     port: 80
     targetPort: 8000
-    nodePort: 31257
+    nodePort: 31258
