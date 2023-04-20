@@ -219,7 +219,7 @@ command
 
 19. now browse- pitambar.bhadra.co.in
 
-## n TwitterShare this page on FacebookShare this page on LinkedInE-mail this page Kubernetes Ingress is an API object that provides routing rules to manage external users' access to the services in a Kubernetes cluster. It convert IP address to Domain name for the current machine only
+## Kubernetes Ingress is an API object that provides routing rules to manage external users' access to the services in a Kubernetes cluster. It convert IP address to Domain name for the current machine only
 
 
 
