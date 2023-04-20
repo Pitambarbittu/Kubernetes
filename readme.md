@@ -132,7 +132,8 @@ spec:
         image: pitambarbhadra/bittu
         ports:
         - containerPort: 8000
-        ```
+
+```
 -----------------------------------------------------
 service.yaml
 ------------
